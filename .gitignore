@@ -1,3 +1,14 @@
+# Editor directories
+/.vscode
+/.idea
+/.vs
+/.zed
+
+# Output directories
+/bin
+/build
+/out
+
 # Prerequisites
 *.d
 
@@ -22,7 +33,7 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects
 *.dll
 *.so
 *.so.*
@@ -50,3 +61,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# MacOS Cache files
+*.DS_Store
